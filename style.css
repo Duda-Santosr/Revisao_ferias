@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFEDF9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    height: 300px; /* Altura fixa do banner */
+	background-image: url('img/Clouds🥺.jpg'); /* Imagem de fundo */
+	background-position: center; /* Centraliza a imagem */
+	background-size: cover; /* Cobre todo o banner */
+    margin-top: -30px;
+    
+}
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.lateral {
+    background-color: #87cefa;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.lateral h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: #DFEDF9;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.principal {
+    width: 80%;
+    padding: 20px;
+}
+
+
+.banner h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 850px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner h2 {
+    font-size: 50px;
+    margin-left: 1000px;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    background: #A8D9F7;
+    margin-bottom: 15px;
+    padding: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+
+
+.post img {
+    width: 170px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #8DC9EE;
+}

@@ -1,0 +1,51 @@
+.login{
+    background-color: #DFEDF9;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+    margin-left: 150%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 145%;
+}
+
+button {
+    background-color: #87cefa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-left: 190%;
+}
+
+button:hover {
+    background-color: #DFEDF9;
+}
+
+h2{
+    background-color: #8DC9EE;
+    color: #ffffff;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+    margin-left: 150%;
+}
